@@ -1,0 +1,22 @@
+.top{
+  text-align: left;
+  font-style: italic;
+  text-decoration-color: #ffffff;
+  background-image: url("../images/image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.top h1{
+  padding: 20px;
+  color: white;
+  font-size: 100px;
+}
+.container{
+  background: url("../images/dice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  height: 100vh;
+}
