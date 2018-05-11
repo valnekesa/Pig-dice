@@ -20,3 +20,22 @@
   padding-top: 10px;
   height: 100vh;
 }
+.rolldice{
+  padding-top: 5%;
+}
+.player {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#roll .btn {
+    color: #fff;
+    background: #000000;
+    margin-left: -15px;
+}
+
+#end-turn .btn {
+    color: #fff;
+    background: #000000;
+    margin-left: px;
+}
