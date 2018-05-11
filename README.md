@@ -1,19 +1,19 @@
-##Assignment: Pig-dice
+<h1>Assignment: Pig-dice</h1>
 
-##Authour(s)
+<h2>Authour(s)</h2>
 Valentine Nekesa
 
-##Link To Deployed Website
+<h2>Link To Deployed Website</h2>
 https://valnekesa.github.io/Pig-dice/
 
-##Project Setup Instructions
+<h2>Project Setup Instructions:</h2>
 To see the work done use the following commands:
 git clone https://github.com/valnekesa/Pig-dice
 cd Pig-dice
 atom .
 code . (if using visual studio code is your preffered text editor)
 
-##MIT License
+<h1>MIT License</h1>
 
 Copyright (c) 2018 Moringa School
 
