@@ -28,6 +28,16 @@
     margin-bottom: 30px;
 }
 
+#players {
+  text-align: center;
+}
+.player {
+    font-size: 1.2em;
+    padding: 5px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
 #roll .btn {
     color: #fff;
     background: #000000;
