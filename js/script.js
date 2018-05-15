@@ -35,12 +35,7 @@ Turn.prototype.endTurn = function(player1, player2) {
   this.randNumber = 0;
   if (this.player == player1) {
       this.player = player2;
-      $("#player2").toggleClass("active");
-      $("#player1").toggleClass("active");
-  } else if (this.player == player2) {
-      this.player = player1;
-      $("#player2").toggleClass("active");
-      $("#player1").toggleClass("active");
+
   };
 };
 
@@ -52,13 +47,7 @@ $(document).ready(function() {
   var currentTurn = new Turn(player1);
 
   var total = currentTurn.total;
-
-  //jquery animations
-  $("#player1").hide().show("slow");
-  $("#player2").hide().show("slow");
-  $("h1").hide().show("slow");
-  $("p").hide().show("slow");
-
+  
   //Prints initial Turn Total of 0
   $("#roll-total").text(total);
 
